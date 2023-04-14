@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\AppYksi.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\pikkuIkkuna.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\AppYksi.h" />
+    <ClInclude Include="src\pikkuIkkuna.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
